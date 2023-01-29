@@ -16,8 +16,9 @@ const config = {
         "url": "https://beta.pokeapi.co/graphql/v1beta",
     },
     "plugins": {
-        'houdini-plugin-svelte-global-stores': {},
-        "houdini-svelte": {}
+
+        "houdini-svelte": {},
+		'houdini-plugin-svelte-global-stores': {}
     },
     scalars: {
  
