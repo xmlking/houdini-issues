@@ -1,0 +1,8 @@
+query listPokemon {
+	pokemon_v2_pokemon(limit: 2) {
+		id
+		name
+		height
+		weight
+	}
+}
